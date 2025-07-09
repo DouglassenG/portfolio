@@ -13,11 +13,12 @@ const Sobre = () => (
     </Paragrafo>
     <GithubSecao>
       <img
-        src="https://github-readme-stats.vercel.app/api?username=DouglassenG&show_icons=true&theme=default"
+        src="https://github-readme-stats.vercel.app/api?username=DouglassenG&show_icons=true&theme=tokyonight&bg_color=00000000"
         alt=""
       />
       <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=DouglassenG&layout=compact"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=DouglassenG&layout=compact&theme=tokyonight&bg_color=00000000
+"
         alt=""
       />
     </GithubSecao>
