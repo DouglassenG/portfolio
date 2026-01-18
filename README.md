@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+# 👨‍💻 Portfólio - Douglas Michelini
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status](https://img.shields.io/badge/Status-Em_Produção-blue)
+![Frontend](https://img.shields.io/badge/Stack-Frontend_Developer-success)
+![Design](https://img.shields.io/badge/UX%2FUI-Responsive-purple)
+![Code](https://img.shields.io/badge/Quality-Clean_Code-000000)
 
-## Available Scripts
+> A interface digital da minha carreira. Um projeto focado em demonstrar competência técnica, sensibilidade visual e a capacidade de entregar produtos web de alta qualidade.
 
-In the project directory, you can run:
+## 🎯 Motivação e Propósito
 
-### `npm start`
+Como desenvolvedor em transição de carreira e estudante de Engenharia de Software, este repositório serve como a **prova técnica** das minhas habilidades. O propósito é centralizar meus melhores projetos (GitHub) e experiências (LinkedIn) em um ambiente controlado e personalizado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este projeto resolve o problema da "dispersão de informações", oferecendo aos recrutadores e clientes uma navegação fluida e intuitiva para conhecerem meu trabalho, tecnologias que domino e meios de contato.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🖼️ Demonstração Visual
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠️ Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A stack foi selecionada para garantir performance, acessibilidade e facilidade de manutenção:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **[HTML5 Semântico](https://developer.mozilla.org/pt-BR/docs/Web/HTML):** Estrutura otimizada para SEO e leitores de tela.
+* **[CSS3 Avançado](https://developer.mozilla.org/pt-BR/docs/Web/CSS):**
+    * **Flexbox & Grid:** Para layouts complexos e alinhamentos.
+    * **Media Queries:** Garantia de responsividade total (Mobile, Tablet, Desktop).
+    * **Animações (Keyframes):** Micro-interações para enriquecer a UX.
+* **[JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript):** Lógica de interatividade (Menu Mobile, Filtros de Projetos, Validação de Formulário).
+* **[Git/GitHub](https://github.com/):** Versionamento e hospedagem de código.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Funcionalidades
 
-### `npm run eject`
+A aplicação consiste em uma Single Page (ou Multi-page estruturada) contendo:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1.  **Hero Section:** Apresentação de impacto com "Call to Action" (CTA).
+2.  **Sobre Mim:** Storytelling da transição de carreira e background acadêmico.
+3.  **Galeria de Projetos:** Cards interativos com links para repositórios e demos ao vivo.
+4.  **Skills Técnicas:** Visualização de hard skills (Linguagens, Frameworks, Ferramentas).
+5.  **Contato:** Links diretos para redes sociais (LinkedIn, WhatsApp) e/ou formulário funcional.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Estrutura de Arquivos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+A organização do código prioriza a separação de responsabilidades e escalabilidade:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```text
+portfolio/
+├── assets/              # Recursos estáticos
+│   ├── images/          # Fotos, ícones e screenshots de projetos
+│   └── documents/       # Currículo (PDF) para download
+├── css/                 # Estilização
+│   ├── global.css       # Variáveis (:root), Reset e Tipografia
+│   ├── layout.css       # Estrutura (Header, Footer, Sections)
+│   └── responsive.css   # Ajustes de Media Queries
+├── js/                  # Scripts
+│   └── main.js          # Lógica de interação (Menu, Scroll, etc)
+├── index.html           # Markup principal
+└── README.md            # Documentação
